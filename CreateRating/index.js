@@ -55,7 +55,7 @@ module.exports = async function (context, req) {
                 }
                 else {
                     context.res = {
-                        body: "product not found!!!!!!!!!!!!!!!"
+                        body: "product not found"
                     };
                     return false;
                 }
